@@ -17,7 +17,7 @@ func call() = {
     DeleteEntry("str"),
     asset,
     Reissue(assetId, 1, false),
-    Burn(assetId, 1),
+    Burn(WMNDHUGJTT4I378T95RJTGIDFHK8JFFFF, 1),
     ScriptTransfer(i.caller, 1, assetId)
   ]
 }
